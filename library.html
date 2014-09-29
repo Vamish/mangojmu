@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>图书馆</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+    <link rel="stylesheet" href="css/amui.all.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <style>
+        .list-item {
+            width: 100%;
+            height: 36px;
+            margin-top: 20px;
+            padding-top: 10px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .list-item:first-child {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<header id="func-lib-header" class="func-header">
+    <div class="func-header-title">需还 / 已借</div>
+    <div>
+        <span id="return-needed" class="func-big-num">15</span>
+        <span class="func-small-num">/</span>
+        <span id="all-borrow" class="func-big-num">20</span>
+    </div>
+</header>
+<div class="func-name">图书馆</div>
+<div class="main-content">
+    <div class="list-item">
+        <label>搜索：</label>
+        <input type="text" name="search" placeholder="图书馆"/>
+    </div>
+    <div class="list-item">
+        查看我的图书馆
+    </div>
+</div>
+<footer>&copy;2014 Amango, Inc. by the Amango Team</footer>
+
+</body>
+</html>

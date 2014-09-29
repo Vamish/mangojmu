@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>活动详情</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+    <link rel="stylesheet" href="css/amui.all.min.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/amui.min.js"></script>
+</head>
+<body>
+<div class="am-slider am-slider-default" style="margin-bottom: 0;">
+    <ul class="am-slides">
+        <li><img src="img/WP.jpg" alt=""/></li>
+        <li><img src="img/WP.jpg" alt=""/></li>
+        <li><img src="img/WP.jpg" alt=""/></li>
+    </ul>
+</div>
+<div class="main-content">
+    <div class="event-detail-title scrollspy-nav" data-am-scrollspy-nav data-am-sticky>
+        idea “重建思维”主题演讲
+        <span class="event-small-notice" style="padding: 0;color: #cc3c45;">
+            <i class="am-icon-heart"></i><span id="event-people-collected">12</span>人已收藏
+        </span>
+    </div>
+    <span class="event-small-notice">活动详情</span>
+
+    <ul class="am-list event-detail-describe">
+        <li>
+            <strong>给你一个忠告，不要听</strong><br/>
+            要在大学读一百本以上的书，<br/>
+            从书中读到自己。<br/>
+            开始一发不可收拾的骑行，<br/>
+            是游历，是修行，是完善自己。<br/>
+            在致远班理解中学时代的梦想与疯狂，<br/>
+            一群热血青年的坚持与努力。<br/>
+            陈坤祥告诉你的忠告，请不要听。<br/>
+            他只祝愿你的大学是你自己的书。<br/>
+            <strong>一个知识分子的爱恨情仇</strong><br/>
+            有良知，有梦想，他是开源时代的知识分子。<br/>
+            被赞美，被质疑，他在思考实现梦想的初衷。<br/>
+            墨守成规的无趣，“离经叛道”的勇气。<br/>
+            身在规矩的教育体制中，<br/>
+            怎样触发到责任与自由的种子。<br/>
+            陈宇奇又到 idea，<br/>
+            这次，来分享他的爱恨情仇。<br/>
+            9 月 21 日，周六晚 7 点，美岭 218，idea 和你一起重建思维。<br/>
+        </li>
+    </ul>
+    <ul class="am-list event-detail-info">
+        <li><i class="am-icon-clock-o event-icon-width"></i>2014年9月21日 19:00</li>
+        <li><i class="am-icon-map-marker event-icon-width"></i>集美大学 美岭楼 218</li>
+        <li><i class="am-icon-ticket event-icon-width"></i>免票入场</li>
+    </ul>
+    <span class="event-small-notice">其他</span>
+    <ul class="am-list event-detail-describe">
+        <li>idea(Desire to spread, spread to desirers)是一个服务于集大学子的独立团队，旨在建立一个互动和分享的思想交流平台。</li>
+        <li>
+            <div class="event-tips-tag">TIPS</div>
+            <p class="am-article-lead event-tip-content">
+                ksdjalkjdlfkjsldakfjlskdjflkdsjflkdsjalfkjsldkfjksdjalkjdlfkjsldakfjlskdjflkdsjflkdsjalfkjsldkfjksdjalkjdlfkjsldakfjlskdjflkdsjflkdsjalfkjsldkfjksdjalkjdlfkjsldakfjlskdjflkdsjflkdsjalfkjsldkfjksdjalkjdlfkjsldakfjlskdjflkdsjflkdsjalfkjsldkfj</p>
+        </li>
+    </ul>
+    <button type="button" class="am-btn am-btn-danger col-sm-5" data-am-modal="{target: '#event-add-favor'}">
+        <i class="am-icon-heart event-icon-width"></i>收藏
+    </button>
+
+    <div class="am-modal am-modal-no-btn" tabindex="-1" id="event-add-favor">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">
+                <a href="" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+            </div>
+            <div class="am-modal-bd">
+                收藏成功！
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="am-btn am-btn-success col-sm-5" data-am-modal="{target: '#event-share-event'}">
+        <i class="am-icon-share-alt event-icon-width"></i>分享
+    </button>
+
+    <div class="am-modal am-modal-no-btn" tabindex="-1" id="event-share-event">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">
+                <a href="" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+            </div>
+            <div class="am-modal-bd">
+                轻触屏幕右上角 <br/>
+                <i class="am-icon-mail-forward"></i>分享给朋友们
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    Zepto(function ($) {
+        $('.am-slider').flexslider();
+    })
+</script>
+</body>
+</html>
